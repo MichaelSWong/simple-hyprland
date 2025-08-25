@@ -1,13 +1,13 @@
 # Simple Hyprland 🌟 
 Welcome to the Simple Hyprland Guide! This repository is designed to help users set up a minimal Hyprland environment on Arch Linux. Although various scripts and configuration files are available elsewhere, they often result in bloated systems with many unused themes and configurations. This guide aims to provide a clear, concise, and minimal setup, allowing users to understand each step and customize their environment to their liking.
 #### General
-- `Super + T`: Open the terminal (`$terminal`).
+- `Super + return`: Open the terminal (`$terminal`).
 - `Super + B`: Open the browser (`$browser`).
 - `Super + O`: Open notes application (`$notes`).
 - `Super + C`: Open the primary editor (`$editor`).
 - `Super + S`: Open the alternative editor (`$editor-alt`).
 - `Super + F`: Open the file manager (`$fileManager`).
-- `Super + A`: Open the application menu (`$menu`).
+- `Super + space`: Open the application menu (`$menu`).
 - `Super + M`: Exit Hyprland.
 
 #### Window Management & Workspace Navigation
@@ -41,4 +41,17 @@ Welcome to the Simple Hyprland Guide! This repository is designed to help users 
 - `Print Screen`: Take a screenshot of the entire screen and copy it to the clipboard.
 - `Super + Print Screen`: Take a screenshot of the active window and copy it to the clipboard.
 - `Super + Alt + Print Screen`: Select an area to take a screenshot and copy it to the clipboard.
+
+Quick Installation Script
+Clone the repository to your home folder:
+
+git clone https://github.com/michaelswong/simple-hyprland.git ~/simple-hyprland
+
+Navigate to the installer directory:
+
+cd ~/simple-hyprland/scripts/installer
+
+Run the installation script with sudo:
+
+sudo sh install.sh
 
