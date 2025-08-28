@@ -45,13 +45,13 @@ Welcome to the Simple Hyprland Guide! This repository is designed to help users 
 Quick Installation Script
 Clone the repository to your home folder:
 
-git clone https://github.com/michaelswong/simple-hyprland.git ~/simple-hyprland
+`git clone https://github.com/michaelswong/simple-hyprland.git ~/simple-hyprland`
 
 Navigate to the installer directory:
 
-cd ~/simple-hyprland/scripts/installer
+`cd ~/simple-hyprland/scripts/installer`
 
 Run the installation script with sudo:
 
-sudo sh install.sh
+`sudo sh install.sh`
 
