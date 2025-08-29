@@ -29,6 +29,4 @@ run_command "cp -r /home/$SUDO_USER/simple-hyprland/configs/ghostty /home/$SUDO_
 run_command "yay -S --sudoloop --noconfirm neovim-nightly-bin" "Install neovim" "yes"
 run_command "cp -r /home/$SUDO_USER/simple-hyprland/configs/nvim /home/$SUDO_USER/.config/" "Copy nvim config" "yes" "no"
 
-run_command "pacman -S --noconfirm tar" "Install tar for extracting files (Must)/needed for copying themes" "yes"
-
 echo "------------------------------------------------------------------------"
