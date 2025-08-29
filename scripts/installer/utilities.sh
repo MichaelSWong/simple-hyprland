@@ -33,4 +33,7 @@ run_command "yay -S --sudoloop --noconfirm grimblast" "Install Grimblast - Scree
 run_command "yay -S --sudoloop --noconfirm hypridle" "Install Hypridle for idle management (Must)" "yes" "no"
 run_command "cp -r /home/$SUDO_USER/simple-hyprland/configs/hypr/hypridle.conf /home/$SUDO_USER/.config/hypr/" "Copy Hypridle config" "yes" "no"
 
+run _command "pacman -S --noconfirm yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick"
+run_command "cp -r /home/$SUDO_USER/simple-hyprland/configs/yazi /home/$SUDO_USER/.config/" "Copy yazi config" "yes" "no"
+
 echo "------------------------------------------------------------------------"
