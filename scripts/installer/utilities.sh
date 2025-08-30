@@ -15,6 +15,9 @@ run_command "cp -r /home/$SUDO_USER/simple-hyprland/configs/waybar /home/$SUDO_U
 run_command "yay -S --sudoloop --noconfirm fuzzel" "Install Fuzzel - Application Launcher" "yes" "no"
 run_command "cp -r /home/$SUDO_USER/simple-hyprland/configs/fuzzel /home/$SUDO_USER/.config/" "Copy fuzzel config(s)" "yes" "no"
 
+run_command "yay -S --sudoloop --noconfirm neovim-nightly-bin" "Install neovim" "yes" "no"
+run_command "cp -r /home/$SUDO_USER/simple-hyprland/configs/nvim /home/$SUDO_USER/.config/" "Copy nvim config" "yes" "no"
+
 run_command "pacman -S --noconfirm cliphist" "Install Cliphist - Clipboard Manager" "yes"
 
 run_command "yay -S --sudoloop --noconfirm swww" "Install SWWW for wallpaper management" "yes" "no"
@@ -33,7 +36,7 @@ run_command "yay -S --sudoloop --noconfirm grimblast" "Install Grimblast - Scree
 run_command "yay -S --sudoloop --noconfirm hypridle" "Install Hypridle for idle management (Must)" "yes" "no"
 run_command "cp -r /home/$SUDO_USER/simple-hyprland/configs/hypr/hypridle.conf /home/$SUDO_USER/.config/hypr/" "Copy Hypridle config" "yes" "no"
 
-run _command "pacman -S --noconfirm yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick"
+run_command "pacman -S --noconfirm yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick"
 run_command "cp -r /home/$SUDO_USER/simple-hyprland/configs/yazi /home/$SUDO_USER/.config/" "Copy yazi config" "yes" "no"
 
 echo "------------------------------------------------------------------------"
